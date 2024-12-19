@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -42,12 +42,15 @@ body {
   display: flex;
 }
 
-ul {
+.todo__tasks,
+.completed__tasks {
   margin: 0;
   padding: 0px;
 }
 
-li, h3 {
+.todo__task,
+.completed__list,
+h3 {
   list-style: none;
 }
 
